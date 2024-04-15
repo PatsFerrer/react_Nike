@@ -1,4 +1,5 @@
 import { shoe8 } from "../assets/images"
+import { arrowRight } from "../assets/icons"
 import Button from "../components/Button"
 
 const SuperQuality = () => {
@@ -20,7 +21,7 @@ const SuperQuality = () => {
         <p className="mt-6 lg:max-w-lg info-text">Our dedication to detail and excellence ensures your satisfaction</p>
 
         <div className="mt-11">
-          <Button label="View details" />
+          <Button label="Shop now" iconURL={arrowRight} />
         </div>
       </div>
 
